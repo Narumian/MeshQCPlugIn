@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9E2975C41F1408AB0082F810 /* MeshPlugIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2975C31F1408AB0082F810 /* MeshPlugIn.m */; };
+		9E2975CD1F1413BD0082F810 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E2975CC1F1413BD0082F810 /* OpenGL.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -15,6 +16,7 @@
 		9E2975C21F1408AB0082F810 /* MeshPlugIn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeshPlugIn.h; sourceTree = "<group>"; };
 		9E2975C31F1408AB0082F810 /* MeshPlugIn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeshPlugIn.m; sourceTree = "<group>"; };
 		9E2975C51F1408AB0082F810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E2975CC1F1413BD0082F810 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -22,6 +24,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E2975CD1F1413BD0082F810 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -33,6 +36,7 @@
 			children = (
 				9E2975C11F1408AB0082F810 /* Mesh */,
 				9E2975C01F1408AB0082F810 /* Products */,
+				9E2975CB1F1413BD0082F810 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,6 +56,14 @@
 				9E2975C51F1408AB0082F810 /* Info.plist */,
 			);
 			path = Mesh;
+			sourceTree = "<group>";
+		};
+		9E2975CB1F1413BD0082F810 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E2975CC1F1413BD0082F810 /* OpenGL.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
